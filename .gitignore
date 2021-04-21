@@ -22,6 +22,7 @@ main/plugins/FastAsyncWorldEdit/clipboard
 main/plugins/FastAsyncWorldEdit/history
 main/plugins/FastAsyncWorldEdit/schematics
 main/plugins/FastAsyncWorldEdit/sessions
+main/plugins/NoCheatPlus/nocheatplus.log.lck
 queue/world
 queue/world_the_end
 queue/world_nether
