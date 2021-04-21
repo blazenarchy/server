@@ -36,3 +36,4 @@ queue/plugins/bStats
 queue/plugins/PluginMetrics
 waterfall/logs
 waterfall/location.yml
+waterfall/plugins/ServerListPlus/PlayerCache.json
