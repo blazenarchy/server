@@ -1,0 +1,123 @@
+# Whether or not to enable the permissions system, set to false if you already have a permissions plugin
+permissions: true
+# Cancels sending of packets too big for client to decompress (over 2097152 bytes), requires ProtocolLib
+packetfilter: true
+# Use custom player list (custom header/footer and name format)
+playerlist: true
+# Use chat mods (custom chat format, coloured/formatted chat)
+chat: true
+# Whether or not to teleport the player to the location in their data file when they login (is set to their logout spot on logout)
+loginTeleport: true
+# Whether or not to enable custom teleport methods designed to prevent coordinate exploits (requires full server reload)
+teleport: true
+# Prefix players with nick names should have
+nickPrefix: "."
+# Whether or not to send a message when a new player joins
+newPlayerMessage: true
+# How much money each player should start with
+startingMoney: 0
+# Interval between player inventory scans for illegal items (in ticks)
+scanTicks: 10
+# How much it costs for players to commit suicide
+suicideCost: 0
+# How much it costs for players to tpa
+tpaCost: 2
+# How much it costs for players to dupe
+dupeCost: 2
+# How much it costs for players to change their personal time
+playerTimeCost: 0
+# How much it costs for players to change their personal wheather
+playerWeatherCost: 0
+# How much it costs for players to set their hat item
+hatCost: 0
+# How much it costs for players to change their nick name
+nickCost: 0
+# Maximum speed players can travel (bps^2)/2
+maxSpeed: 100
+# Enable personal time (requires full plugin reload)
+playertime: true
+# Enable personal wheather (requires full plugin reload)
+playerweather: true
+# Enable toggling of death messages (requires full plugin reload)
+toggledeathmessages: true
+# Enable hats (requires full plugin reload)
+hat: true
+# Enable ignore command (requires full plugin reload)
+ignore: true
+# Enable the messaging system (requires full plugin reload)
+messaging: true
+# Enable info command (requires full plugin reload)
+info: true
+# Enable nicknames (requires full plugin reload)
+nick: true
+# Enable the tpa (requires full plugin reload)
+tpa: true
+# Enable the dupe (requires full plugin reload)
+dupe: false
+# Enable currency commands (requires full plugin reload)
+currency: true
+# Enable the suicide command (requires full plugin reload)
+suicide: true
+# Enable the anti speed
+antiSpeed: true
+# Delete items in inventoryies if they are too big
+deleteOversized: true
+# Delete illegals, does not affect scanDropped
+deleteIllegals: true
+# Unstack overstacked items
+unstackOverstacked: true
+# Enable scanning for illegal items dropped in world
+deleteDroppedIllegals: true
+# Items players are not allowed to overstack
+noStack:
+  - SHULKER_BOX
+  - TOTEM_OF_UNDYING
+# Items players are not allowed to have
+illegals:
+  - END_PORTAL_FRAME
+  - BEDROCK
+  - BARRIER
+  - STRUCTURE_BLOCK
+  - COMMAND_BLOCK
+# Items players cannot dupe
+noDupe:
+  - SKELETON_SKULL
+  - CREEPER_HEAD
+  - ZOMBIE_HEAD
+  - PLAYER_HEAD
+  - DRAGON_HEAD
+  - DRAGON_EGG
+# Nick names players cannot use, case insensitive
+bannedNicks:
+  - console
+  - admin
+  - moderator
+  - owner
+  - rcon
+  - wnuke
+
+# Placeholders:
+# - %prefix% the prefix of the player's current group
+# - %name% the player's name
+# - %display_name% the player's displayname/nickname
+
+# What chat messages should look like, can use all placeholders and colour/formatting codes + %message% which gets replaced with the player's chat message
+chatformat: "&r<%prefix%%display_name%&r> %message%"
+# Player list header lines, can use all placeholders and colour/formatting codes
+header: "
+
+&7&l&oBLAZENARCHY&r
+
+"
+# Player list player name formatting, can use all placeholders and colour/formatting codes
+nameformat: "&r%prefix%%name%&r"
+# Player list footer lines, can use all placeholders and colour/formatting codes
+footer: "
+
+&7contact: admin@blazenarchy.net
+
+&7wiki: https://wiki.blazenarchy.net
+
+&7donate: https://blazenarchy.buycraft.net
+
+&7discord: https://discord.blazenarchy.net&r"

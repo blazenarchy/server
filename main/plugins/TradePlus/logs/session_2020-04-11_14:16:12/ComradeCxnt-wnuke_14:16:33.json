@@ -1,0 +1,25 @@
+{
+  "player1": {
+    "uniqueId": "156a8f16-d1ce-492b-83f7-21d179dd52ba",
+    "lastKnownName": "ComradeCxnt"
+  },
+  "player2": {
+    "uniqueId": "381fdd85-8abd-4b63-bb48-a4daefc13f82",
+    "lastKnownName": "wnuke"
+  },
+  "player1Items": [
+    {
+      "material": "SHULKER_SHELL",
+      "amount": 6
+    }
+  ],
+  "player2Items": [
+    {
+      "damage": 1,
+      "material": "LOG",
+      "amount": 8,
+      "data": 1
+    }
+  ],
+  "time": "Apr 11, 2020 2:16:33 PM"
+}
