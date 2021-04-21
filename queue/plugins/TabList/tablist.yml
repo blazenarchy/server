@@ -50,7 +50,7 @@ header:
 - ""
 
 footer:
-- ""
+- "w"
 - "&6You are number %waterqueue_pos% in queue."
 - ""
 - "&7owner: wnuke (discord: wnuke#2858)"
