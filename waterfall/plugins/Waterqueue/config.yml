@@ -6,3 +6,4 @@ default_play_server: "main" # must be set to the name of a server specified in B
 queue_logs: true # Whether or not to log information on player Queuing (very "spammy" in logs, disable unless debugging"
 queues:
   normal: 1 # format is "queueName: priority" priority must be an integer, to add a player to a queue give them the permission "waterqueue.queue.queueName" (in the BungeeCord/Waterfall server)
+  admin: 1000
