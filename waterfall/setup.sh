@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env sh
 cd plugins
 rm *.jar
 wget $(cat ../plugins.txt | cut -d ',' -f2)

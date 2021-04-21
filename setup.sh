@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env sh
 cd main
 ./setup.sh
 cd ../queue
