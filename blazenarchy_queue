@@ -19,17 +19,17 @@
 
 . /etc/rc.subr
 
-name=blazenarcy_queue
+name=blazenarchy_queue
 rcvar=blazenarchy_enable
 
 load_rc_config ${name}
 
 command=/usr/local/bin/screen
-pidfile=/var/run/blazenarcy_main.pid
+pidfile=/var/run/blazenarchy_queue.pid
 
-start_cmd="${name}_start"
-stop_cmd="${name}_stop"
-status_cmd="${name}_status"
+start_cmd="minecraft_start"
+stop_cmd="minecraft_start"
+status_cmd="minecraft_start"
 
 : ${blazenarchy_enable="NO"}
 : ${minecraft_user="minecraft"}

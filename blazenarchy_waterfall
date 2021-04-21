@@ -19,24 +19,24 @@
 
 . /etc/rc.subr
 
-name=blazenarcy_waterfall
+name=blazenarchy_waterfall
 rcvar=blazenarchy_enable
 
 load_rc_config ${name}
 
 command=/usr/local/bin/screen
-pidfile=/var/run/blazenarcy_main.pid
+pidfile=/var/run/blazenarchy_main.pid
 
-start_cmd="${name}_start"
-stop_cmd="${name}_stop"
-status_cmd="${name}_status"
+start_cmd="minecraft_start"
+stop_cmd="minecraft_start"
+status_cmd="minecraft_start"
 
 : ${blazenarchy_enable="NO"}=
 : ${minecraft_user="minecraft"}
-: ${minecraft_chdir="/srv/blazenarchy/main"}
-: ${minecraft_path="/srv/blazenarchy/main/server.jar"}
+: ${minecraft_chdir="/srv/blazenarchy/waterfall"}
+: ${minecraft_path="/srv/blazenarchy/waterfall/server.jar"}
 : ${minecraft_flags=""}
-: ${minecraft_args="/usr/local/bin/java -Xmx10G -Xms10G \
+: ${minecraft_args="/usr/local/bin/java -Xmx1G -Xms1G \
                     -XX:+UseConcMarkSweepGC -XX:+CMSIncrementalPacing \
                     -XX:ParallelGCThreads=4 -XX:+AggressiveOpts \
                     -DIReallyKnowWhatIAmDoingISwear \
