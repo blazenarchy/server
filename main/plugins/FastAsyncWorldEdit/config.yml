@@ -1,16 +1,14 @@
 # These first 6 aren't configurable
 issues: "https://github.com/IntellectualSites/FastAsyncWorldEdit/issues"
 wiki: "https://wiki.intellectualsites.com/FastAsyncWorldEdit/index"
-date: "1 Nov 2020 00:00:00 GMT"
-build: "https://ci.athion.net/job/FastAsyncWorldEdit-1.16/395"
-commit: "https://github.com/IntellectualSites/FastAsyncWorldEdit/commit/f7719b60"
+date: "Wed May 19 00:00:00 PDT 2021"
+build: "https://ci.athion.net/job/FastAsyncWorldEdit-1.16/664"
+commit: "https://github.com/IntellectualSites/FastAsyncWorldEdit/commit/f338a9ac"
 platform: "Bukkit"
 # Set true to enable WorldEdit restrictions per region (e.g. PlotSquared or WorldGuard).
 # To be allowed to WorldEdit in a region, users need the appropriate
 # fawe.<plugin>  permission. See the Permissions page for supported region plugins.
 region-restrictions: true
-# FAWE will skip chunks when there's not enough memory available
-prevent-crashes: false
 # FAWE will cancel non admin edits when memory consumption exceeds this %
 #  - Bypass with `/wea` or `//fast` or `fawe.bypass`
 #  - Disable with 100 or -1.
@@ -22,9 +20,6 @@ enabled-components:
   # Disable the FAWE-PlotSquared hook to take over most intense P2 queueing
   # Specific aspects can be turned on and off further below
   plotsquared-hook: true
-  # Send anonymous FAWE statistics to https://bstats.org/.
-  # Please keep this setting enabled. It helps us identifying which parts of FAWE are used the most to organize future updates better.
-  bstats: true
 
 clipboard:
   # Store the clipboard on disk instead of memory
@@ -114,10 +109,6 @@ experimental:
   # [SAFE] Keep entities that are positioned in non-air blocks when editing an area
   # Might cause client-side FPS lagg in some situations
   keep-entities-in-blocks: false
-  # [SAFE] Experimental freebuild region restrictions
-  #  - PERM: fawe.freebuild
-  #  - PERM: fawe.freebuild.<plugin>
-  freebuild: false
   # Other experimental features
   other: false
   # Allow blocks placed by WorldEdit to tick. This could cause the big lags.
@@ -126,10 +117,16 @@ experimental:
   # Force re-ticking of existing blocks not edited by FAWE.
   # This will increase time taken slightly.
   allow-tick-existing: true
-  # Do not wait for a chunk's history to save before sending it
+  # [SAFE] Do not wait for a chunk's history to save before sending it
   #  - Undo/redo commands will wait until the history has been written to disk before executing
   #  - Requires combine_stages = true
   send-before-history: false
+  # Sets a maximum limit (in kb) for the size of a player's schematics directory (per-player mode only)
+  # Set to -1 to disable
+  per-player-file-size-limit: -1
+  # Sets a maximum limit for the amount of schematics in a player's schematics directory (per-player mode only)
+  # Set to -1 to disable
+  per-player-file-num-limit: -1
 
 # This relates to how FAWE places chunks
 queue:

@@ -12,6 +12,7 @@
 # Bug tracker: https://www.spigotmc.org/go/bugs
 
 
+aliases: now-in-commands.yml
 settings:
   allow-end: true
   warn-on-overload: true

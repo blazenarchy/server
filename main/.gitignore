@@ -6,3 +6,5 @@
 /crash-reports
 /data
 /version_history.json
+/plugins/bStats
+/plugins/PluginMetrics
