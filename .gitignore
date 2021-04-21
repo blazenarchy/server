@@ -20,3 +20,4 @@ queue/data
 queue/version_history.json
 queue/plugins/bStats
 queue/plugins/PluginMetrics
+waterfall/logs
