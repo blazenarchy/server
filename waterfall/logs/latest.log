@@ -1,0 +1,94 @@
+[22:52:13] [main/INFO]: Using mbed TLS based native cipher.
+[22:52:13] [main/INFO]: Using zlib based native compressor.
+[22:52:13] [main/INFO]: Enabled Waterfall version git:Waterfall-Bootstrap:1.16-R0.5-SNAPSHOT:95c9b6c:411
+[22:52:13] [main/INFO]: Not on Windows, attempting to use enhanced EpollEventLoop
+[22:52:13] [main/WARN]: Epoll is not working, falling back to NIO: ExceptionInInitializerError : null @ io.netty.channel.epoll.Epoll:39
+[22:52:13] [main/INFO]: Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+[22:52:13] [main/INFO]: Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+[22:52:13] [main/INFO]: Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+[22:52:13] [main/INFO]: Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+[22:52:13] [main/INFO]: Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+[22:52:13] [main/INFO]: Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+[22:52:13] [main/INFO]: Loaded plugin reconnect_yaml version git:reconnect_yaml:1.16-R0.5-SNAPSHOT:95c9b6c:411 by WaterfallMC
+[22:52:13] [main/INFO]: Loaded plugin Waterqueue version v0.0.1 by willemml
+[22:52:13] [main/INFO]: Loaded plugin cmd_find version git:cmd_find:1.16-R0.5-SNAPSHOT:95c9b6c:411 by WaterfallMC
+[22:52:13] [main/INFO]: Loaded plugin ViaVersion version 3.2.1 by _MylesC, creeper123123321, Gerrygames, KennyTV, Matsv
+[22:52:13] [main/INFO]: Loaded plugin cmd_server version git:cmd_server:1.16-R0.5-SNAPSHOT:95c9b6c:411 by WaterfallMC
+[22:52:13] [main/INFO]: Loaded plugin cmd_alert version git:cmd_alert:1.16-R0.5-SNAPSHOT:95c9b6c:411 by WaterfallMC
+[22:52:13] [main/INFO]: Loaded plugin ServerListPlus version 3.4.8 by Minecrell <https://github.com/Minecrell>
+[22:52:13] [main/INFO]: Loaded plugin cmd_send version git:cmd_send:1.16-R0.5-SNAPSHOT:95c9b6c:411 by WaterfallMC
+[22:52:13] [main/INFO]: Loaded plugin ViaBackwards version 3.2.0 by Matsv, KennyTV, Gerrygames, creeper123123321, ForceUpdate1
+[22:52:13] [main/INFO]: Loaded plugin cmd_list version git:cmd_list:1.16-R0.5-SNAPSHOT:95c9b6c:411 by WaterfallMC
+[22:52:13] [main/INFO]: Enabled plugin reconnect_yaml version git:reconnect_yaml:1.16-R0.5-SNAPSHOT:95c9b6c:411 by WaterfallMC
+[22:52:13] [main/INFO] [Waterqueue]: Loading Waterqueue by wnuke...
+[22:52:13] [main/INFO] [Waterqueue]: Waterqueue by wnuke is loaded.
+[22:52:13] [main/INFO]: Enabled plugin Waterqueue version v0.0.1 by willemml
+[22:52:13] [main/INFO]: Enabled plugin cmd_find version git:cmd_find:1.16-R0.5-SNAPSHOT:95c9b6c:411 by WaterfallMC
+[22:52:14] [Via-Mappingloader-0/INFO] [ViaVersion]: Loading 1.12 -> 1.13 mappings...
+[22:52:14] [Via-Mappingloader-1/INFO] [ViaVersion]: Loading 1.13 -> 1.13.2 mappings...
+[22:52:14] [Via-Mappingloader-2/INFO] [ViaVersion]: Loading 1.13.2 -> 1.14 mappings...
+[22:52:14] [Via-Mappingloader-3/INFO] [ViaVersion]: Loading 1.14 -> 1.15 mappings...
+[22:52:14] [Via-Mappingloader-4/INFO] [ViaVersion]: Loading 1.15 -> 1.16 mappings...
+[22:52:14] [Via-Mappingloader-5/INFO] [ViaVersion]: Loading 1.16 -> 1.16.2 mappings...
+[22:52:14] [main/INFO] [ViaBackwards]: Loading translations...
+[22:52:14] [main/INFO] [ViaBackwards]: Registering protocols...
+[22:52:14] [Via-Mappingloader-0/INFO] [ViaVersion]: Loading block connection mappings ...
+[22:52:14] [Via-Mappingloader-1/INFO] [ViaVersion]: Loading 1.13.2 -> 1.13 mappings...
+[22:52:14] [Via-Mappingloader-2/INFO] [ViaVersion]: Loading 1.14 -> 1.13.2 mappings...
+[22:52:14] [Via-Mappingloader-5/INFO] [ViaVersion]: Loading 1.13 -> 1.12 mappings...
+[22:52:14] [Via-Mappingloader-0/INFO] [ViaVersion]: Loading 1.15 -> 1.14 mappings...
+[22:52:14] [Via-Mappingloader-5/INFO] [ViaVersion]: Loading 1.16 -> 1.15 mappings...
+[22:52:14] [Via-Mappingloader-5/INFO] [ViaVersion]: Loading 1.16.2 -> 1.16 mappings...
+[22:52:15] [main/INFO]: Enabled plugin ViaVersion version 3.2.1 by _MylesC, creeper123123321, Gerrygames, KennyTV, Matsv
+[22:52:15] [main/INFO]: Enabled plugin cmd_server version git:cmd_server:1.16-R0.5-SNAPSHOT:95c9b6c:411 by WaterfallMC
+[22:52:15] [main/INFO]: Enabled plugin cmd_alert version git:cmd_alert:1.16-R0.5-SNAPSHOT:95c9b6c:411 by WaterfallMC
+[22:52:15] [ViaVersion Pool Thread #0/INFO] [ViaVersion]: ViaVersion detected server version: 1.8.x(47)
+[22:52:15] [ViaVersion Pool Thread #2/INFO] [ViaVersion]: Finished mapping loading, shutting down loader executor!
+[22:52:15] [main/INFO] [ServerListPlus]: [Core] Reloading configuration...
+[22:52:15] [main/INFO] [ServerListPlus]: [Core] Loaded configuration: ServerStatusConf
+[22:52:15] [main/INFO] [ServerListPlus]: [Core] Loaded configuration: PluginConf
+[22:52:15] [main/INFO] [ServerListPlus]: [Core] Reloading saved player identities...
+[22:52:15] [main/INFO] [ServerListPlus]: Successfully loaded!
+[22:52:15] [main/INFO]: Enabled plugin ServerListPlus version 3.4.8 by Minecrell <https://github.com/Minecrell>
+[22:52:15] [main/INFO]: Enabled plugin cmd_send version git:cmd_send:1.16-R0.5-SNAPSHOT:95c9b6c:411 by WaterfallMC
+[22:52:15] [main/INFO]: Enabled plugin ViaBackwards version 3.2.0 by Matsv, KennyTV, Gerrygames, creeper123123321, ForceUpdate1
+[22:52:15] [main/INFO]: Enabled plugin cmd_list version git:cmd_list:1.16-R0.5-SNAPSHOT:95c9b6c:411 by WaterfallMC
+[22:52:15] [Netty Boss IO Thread #0/INFO]: Listening on /0.0.0.0:25565
+[22:52:15] [Netty Worker IO Thread #2/INFO]: Started query on /[0:0:0:0:0:0:0:0]:25565
+[22:52:16] [Netty Worker IO Thread #3/INFO]: [/127.0.0.1:61361] <-> InitialHandler has pinged
+[22:52:17] [Netty Worker IO Thread #5/INFO]: [/127.0.0.1:61366] <-> InitialHandler has pinged
+[22:54:26] [Netty Worker IO Thread #11/INFO]: [/127.0.0.1:61426] <-> InitialHandler has connected
+[22:54:30] [Netty Worker IO Thread #12/INFO]: [/127.0.0.1:61430] <-> InitialHandler has connected
+[22:54:31] [Netty Worker IO Thread #12/INFO] [Waterqueue]: wnuke has the following permissions: bungeecord.command.ip, bungeecord.command.list, bungeecord.command.server, bungeecord.command.reload, bungeecord.command.alert, waterqueue.queue.normal, bungeecord.command.end, waterqueue.queue.admin, 
+[22:54:31] [Netty Worker IO Thread #12/INFO] [Waterqueue]: wnuke going into "normal" queue.
+[22:54:31] [Netty Worker IO Thread #13/INFO] [Waterqueue]: normal target server could not be pinged successfully, sending wnuke to the queue.
+[22:54:31] [Netty Worker IO Thread #13/INFO] [Waterqueue]: wnuke has joined the "normal" queue.
+[22:54:31] [Netty Worker IO Thread #12/INFO]: [wnuke|/127.0.0.1:61430] <-> ServerConnector [queue] has connected
+[22:58:32] [Netty Worker IO Thread #12/INFO]: [wnuke] disconnected with: You have been idle for too long!
+[22:58:32] [Netty Worker IO Thread #12/INFO]: [/127.0.0.1:61430|wnuke] -> UpstreamBridge has disconnected
+[22:58:32] [Netty Worker IO Thread #12/INFO]: [/127.0.0.1:61430|wnuke] <-> DownstreamBridge <-> [queue] has disconnected
+[23:00:04] [Netty Worker IO Thread #8/INFO]: [/127.0.0.1:61632] <-> InitialHandler has connected
+[23:00:04] [Netty Worker IO Thread #8/INFO] [Waterqueue]: wnuke has the following permissions: bungeecord.command.ip, bungeecord.command.list, bungeecord.command.server, bungeecord.command.reload, bungeecord.command.alert, waterqueue.queue.normal, bungeecord.command.end, waterqueue.queue.admin, 
+[23:00:04] [Netty Worker IO Thread #8/INFO] [Waterqueue]: wnuke going into "normal" queue.
+[23:00:04] [Netty Worker IO Thread #9/INFO] [Waterqueue]: normal target server could not be pinged successfully, sending wnuke to the queue.
+[23:00:04] [Netty Worker IO Thread #9/INFO] [Waterqueue]: wnuke has joined the "normal" queue.
+[23:00:04] [Netty Worker IO Thread #8/INFO]: [wnuke|/127.0.0.1:61632] <-> ServerConnector [queue] has connected
+[23:01:30] [Netty Worker IO Thread #8/INFO]: [wnuke] disconnected with: Server closed
+[23:01:30] [Netty Worker IO Thread #8/INFO]: [/127.0.0.1:61632|wnuke] -> UpstreamBridge has disconnected
+[23:01:30] [Netty Worker IO Thread #8/INFO]: [/127.0.0.1:61632|wnuke] <-> DownstreamBridge <-> [queue] has disconnected
+[23:01:58] [Netty Worker IO Thread #14/INFO]: [/127.0.0.1:61667] <-> InitialHandler has connected
+[23:01:58] [Netty Worker IO Thread #14/INFO] [Waterqueue]: wnuke has the following permissions: bungeecord.command.ip, bungeecord.command.list, bungeecord.command.server, bungeecord.command.reload, bungeecord.command.alert, waterqueue.queue.normal, bungeecord.command.end, waterqueue.queue.admin, 
+[23:01:58] [Netty Worker IO Thread #14/INFO] [Waterqueue]: wnuke going into "normal" queue.
+[23:01:58] [Netty Worker IO Thread #15/INFO] [Waterqueue]: normal target server could not be pinged successfully, sending wnuke to the queue.
+[23:01:58] [Netty Worker IO Thread #15/INFO] [Waterqueue]: wnuke has joined the "normal" queue.
+[23:01:58] [Netty Worker IO Thread #14/INFO]: [wnuke|/127.0.0.1:61667] <-> ServerConnector [queue] has connected
+[23:02:04] [Netty Worker IO Thread #14/INFO]: [/127.0.0.1:61667|wnuke] -> UpstreamBridge has disconnected
+[23:02:04] [Netty Worker IO Thread #14/INFO]: [/127.0.0.1:61667|wnuke] <-> DownstreamBridge <-> [queue] has disconnected
+[23:02:04] [Netty Worker IO Thread #0/INFO]: [/127.0.0.1:61674] <-> InitialHandler has pinged
+[23:02:09] [Shutdown Thread/INFO]: Closing listener [id: 0x35027b7c, L:/[0:0:0:0:0:0:0:0]:25565]
+[23:02:09] [Shutdown Thread/INFO]: Closing listener [id: 0xb8209685, L:/[0:0:0:0:0:0:0:0]:25565]
+[23:02:09] [Shutdown Thread/INFO]: Closing pending connections
+[23:02:09] [Shutdown Thread/INFO]: Disconnecting 0 connections
+[23:02:10] [Shutdown Thread/INFO]: Disabling plugins
+[23:02:10] [Shutdown Thread/INFO]: Closing IO threads
+[23:02:12] [Shutdown Thread/INFO]: Thank you and goodbye

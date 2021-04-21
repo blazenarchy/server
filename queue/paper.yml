@@ -59,7 +59,7 @@ settings:
     page-max: 510
     total-multiplier: 0.98
 timings:
-  enabled: true
+  enabled: false
   verbose: true
   server-name-privacy: true
   hidden-config-entries:
@@ -121,7 +121,7 @@ world-settings:
     enable-treasure-maps: true
     treasure-maps-return-already-discovered: false
     light-queue-size: 20
-    auto-save-interval: -1
+    auto-save-interval: 10000
     remove-corrupt-tile-entities: false
     fixed-chunk-inhabited-time: -1
     per-player-mob-spawns: false
@@ -134,13 +134,13 @@ world-settings:
     experience-merge-max-value: -1
     count-all-mobs-for-spawning: false
     piglins-guard-chests: true
-    should-remove-dragon: false
+    should-remove-dragon: true
     ender-dragons-death-always-places-dragon-egg: false
     allow-using-signs-inside-spawn-protection: false
     falling-block-height-nerf: 0
     tnt-entity-height-nerf: 0
     filter-nbt-data-from-spawn-eggs-and-related: true
-    max-entity-collisions: 8
+    max-entity-collisions: 0
     disable-creeper-lingering-effect: false
     phantoms-do-not-spawn-on-creative-players: true
     phantoms-only-attack-insomniacs: true
@@ -217,7 +217,7 @@ world-settings:
       soft: 32
       hard: 64
     frosted-ice:
-      enabled: false
+      enabled: true
       delay:
         min: 20
         max: 40

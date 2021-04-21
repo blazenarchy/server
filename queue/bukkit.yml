@@ -24,19 +24,20 @@ settings:
   deprecated-verbose: default
   shutdown-message: Server closed
   minimum-api: none
+  spawn-radius: 0
 spawn-limits:
-  monsters: 40
-  animals: 8
-  water-animals: 2
-  water-ambient: 2
-  ambient: 2
+  monsters: 0
+  animals: 0
+  water-animals: 0
+  water-ambient: 0
+  ambient: 0
 chunk-gc:
-  period-in-ticks: 200
-  load-threshold: 16
+  period-in-ticks: 800
+  load-threshold: 20
 ticks-per:
-  animal-spawns: 400
-  monster-spawns: 40
-  water-spawns: 100
-  water-ambient-spawns: 400
-  ambient-spawns: 400
-  autosave: 6000
+  animal-spawns: 0
+  monster-spawns: 0
+  water-spawns: 0
+  water-ambient-spawns: 0
+  ambient-spawns: 0
+  autosave: 0

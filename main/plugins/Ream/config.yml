@@ -114,10 +114,6 @@ nameformat: "&r%prefix%%name%&r"
 # Player list footer lines, can use all placeholders and colour/formatting codes
 footer: "
 
-&7contact: admin@blazenarchy.net
+&7owner: wnuke (discord: wnuke#2858)
 
-&7wiki: https://wiki.blazenarchy.net
-
-&7donate: https://blazenarchy.buycraft.net
-
-&7discord: https://discord.blazenarchy.net&r"
+&7website: https://blazenarchy.net&r"

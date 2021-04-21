@@ -1,0 +1,7 @@
+animations:
+  tablist:
+    # Text changing interval in milliseconds (ticks).
+    interval: 60
+
+    # Display the text randomly?
+    random: true
