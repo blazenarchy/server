@@ -1,7 +1,6 @@
 #!/usr/bin/env sh
-args="java -Xmx10G -Xms10G \
-                    -XX:+UseConcMarkSweepGC \
-                    -XX:ParallelGCThreads=4 -XX:+AggressiveOpts \
+args="java -Xmx6G -Xms6G \
+                    -XX:ParallelGCThreads=4 \
                     -DIReallyKnowWhatIAmDoingISwear \
                     -jar server.jar nogui"
 

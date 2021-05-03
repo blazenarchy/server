@@ -1,6 +1,5 @@
-args="/usr/local/bin/java -Xmx1G -Xms1G \
-                    -XX:+UseConcMarkSweepGC \
-                    -XX:ParallelGCThreads=4 -XX:+AggressiveOpts \
+args="/usr/local/bin/java -Xmx512M -Xms512M \
+                    -XX:ParallelGCThreads=4 \
                     -DIReallyKnowWhatIAmDoingISwear \
                     -jar server.jar nogui"
 
