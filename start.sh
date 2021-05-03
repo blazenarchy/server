@@ -1,4 +1,4 @@
 #!/usr/bin/env sh
-./start_queue.sh
-./start_waterfall.sh
-./start_main.sh
+./start_queue.sh 512M
+./start_waterfall.sh 512M
+./start_main.sh 4G

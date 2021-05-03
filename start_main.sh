@@ -1,5 +1,5 @@
 #!/usr/bin/env sh
-args="java -Xmx6G -Xms6G \
+args="java -Xmx$1 -Xms$1 \
                     -XX:ParallelGCThreads=4 \
                     -DIReallyKnowWhatIAmDoingISwear \
                     -jar server.jar nogui"
