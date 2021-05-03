@@ -1,5 +1,5 @@
 args="/usr/local/bin/java -Xmx1G -Xms1G \
-                    -XX:+UseConcMarkSweepGC -XX:+CMSIncrementalPacing \
+                    -XX:+UseConcMarkSweepGC \
                     -XX:ParallelGCThreads=4 -XX:+AggressiveOpts \
                     -DIReallyKnowWhatIAmDoingISwear \
                     -jar server.jar nogui"
