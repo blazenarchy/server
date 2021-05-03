@@ -1,3 +1,0 @@
-[EXECUTABLE]
-mojang_1.16.5
-
